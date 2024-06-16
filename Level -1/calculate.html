@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Simple Calculator</title>
+        <!-- Bootstrap CSS -->
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+        <div class="container mt-5">
+                <div class="card shadow ">
+                        <div class="card-body">
+                                <h2 class="card-title h1 text-center">Calculator</h2>
+                                <div class="form-group ">
+                                        <input type="text" class="form-control" id="display" disabled>
+                                </div>
+                                <div class="button-group">
+                                        <div class="row mb-2">
+                                                <div class="col"><button class="btn btn-block" id="equal1"
+                                                                onclick="clearDisplay()">C</button></div>
+                                        </div>
+                                        <div class="row mb-2">
+                                                <div class="col"><button class="btn  btn-block"
+                                                                onclick="append('7')">7</button></div>
+                                                <div class="col"><button class="btn  btn-block"
+                                                                onclick="append('8')">8</button></div>
+                                                <div class="col"><button class="btn  btn-block"
+                                                                onclick="append('9')">9</button></div>
+                                                <div class="col"><button class="btn btn-block"
+                                                                onclick="append('%')">%</button></div>
+
+
+                                        </div>
+                                        <div class="row mb-2">
+                                                <div class="col"><button class="btn  btn-block"
+                                                                onclick="append('4')">4</button></div>
+                                                <div class="col"><button class="btn  btn-block"
+                                                                onclick="append('5')">5</button></div>
+                                                <div class="col"><button class="btn  btn-block"
+                                                                onclick="append('6')">6</button></div>
+                                                <div class="col"><button class="btn btn-block"
+                                                                onclick="append('/')">/</button></div>
+
+
+
+                                        </div>
+                                        <div class="row mb-2">
+                                                <div class="col"><button class="btn btn-block"
+                                                                onclick="append('1')">1</button></div>
+                                                <div class="col"><button class="btn  btn-block"
+                                                                onclick="append('2')">2</button></div>
+                                                <div class="col"><button class="btn btn-block"
+                                                                onclick="append('3')">3</button></div>
+                                                <div class="col"><button class="btn btn-block"
+                                                                onclick="append('*')">*</button></div>
+
+                                        </div>
+                                        <div class="row mb-2">
+
+                                                <div class="col"><button class="btn  btn-block"
+                                                                onclick="append('0')">0</button></div>
+                                                <div class="col"><button class="btn btn-block"
+                                                                onclick="append('-')">-</button></div>
+
+                                                <div class="col"><button class="btn  btn-block"
+                                                                onclick="append('+')">+</button></div>
+                                                <div class="col"><button class="btn btn-block" id="equal2"
+                                                                onclick="calculateResult()">=</button></div>
+                                        </div>
+
+                                </div>
+                        </div>
+                </div>
+        </div>
+        </div>
+        <!-- JavaScript -->
+        <script src="script.js"></script>
+</body>
+
+</html>
