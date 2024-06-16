@@ -1,5 +1,3 @@
-
-
 function append(value) {
   document.getElementById("display").value += value;
 }
@@ -26,6 +24,5 @@ function calculateResult() {
     var numbers = display.split("%");
     result = parseFloat(numbers[0]) / parseFloat(numbers[1]);
   }
-
   document.getElementById("display").value = result;
 }
