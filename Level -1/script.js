@@ -26,3 +26,12 @@ function calculateResult() {
   }
   document.getElementById("display").value = result;
 }
+function calculateResult() {
+  var display = document.getElementById("display").value;
+  try {
+    var result = eval(display);
+    document.getElementById("display").value = result;
+  } catch (e) {
+    document.getElementById("display").value = "Error";
+  }
+}
