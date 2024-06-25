@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="bg-primary text-white text-center py-5" id="hero">
+        <div class="container">
+            <h1 class="display-4">Welcome to My Portfolio</h1>
+            <p class="lead">Hi, I'm [Your Name], a [Your Profession]</p>
+        </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-5" id="about">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 text-center">
+                    <img src="images/profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle mb-3">
+                </div>
+                <div class="col-lg-6">
+                    <h2>About Me</h2>
+                    <p>[A brief description about yourself]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="bg-light py-5" id="portfolio">
+        <div class="container">
+            <h2 class="text-center mb-4">My Work</h2>
+            <div class="row">
+                <!-- Portfolio Item -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 1</h5>
+                            <p class="card-text">Short description of the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 2</h5>
+                            <p class="card-text">Short description of the project.</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Portfolio Item -->
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="card">
+                        <img src="https://via.placeholder.com/350x200" class="card-img-top" alt="Project Image">
+                        <div class="card-body">
+                            <h5 class="card-title">Project Title 3</h5>
+                            <p class="card-text">Short description of the project.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-4">Contact Me</h2>
+            <form id="contact-form" class="row g-3">
+                <div class="col-md-6">
+                    <label for="name" class="form-label">Name</label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email" required>
+                </div>
+                <div class="col-12">
+                    <label for="message" class="form-label">Message</label>
+                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Send</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 [Your Name]. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="vendor/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

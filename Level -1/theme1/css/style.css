@@ -45,14 +45,14 @@
   color: black;
 }
 
-#menu_links>a:link,
-#menu_links>a:visited {
+#menu_links > a:link,
+#menu_links > a:visited {
   color: black;
   margin-right: 50px;
   text-decoration: none;
 }
 
-#menu_links>a:hover {
+#menu_links > a:hover {
   /* padding: 15px; */
   color: #dd6b6b;
 }
@@ -80,9 +80,9 @@
 }
 
 .cate_image {
-  height: auto;
-  width: 420px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  height: 475px;
+  width: 305px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
 }
 
 .image_heading {
@@ -102,7 +102,7 @@
   margin-top: 30px;
   height: 300px;
   width: auto;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  /* box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; */
 }
 
 #single-product {
@@ -229,50 +229,50 @@
   display: flex;
 }
 
-#icon-1>a:link,
-#icon-1>a:visited {
+#icon-1 > a:link,
+#icon-1 > a:visited {
   color: black;
   /* margin-right: 50px; */
   text-decoration: none;
 }
 
-#icon-1>a:hover {
+#icon-1 > a:hover {
   /* padding: 15px; */
   color: #dd6b6b;
 }
 
-#icon-2>a:link,
-#icon-2>a:visited {
+#icon-2 > a:link,
+#icon-2 > a:visited {
   color: black;
   /* margin-right: 50px; */
   text-decoration: none;
 }
 
-#icon-2>a:hover {
+#icon-2 > a:hover {
   /* padding: 15px; */
   color: #dd6b6b;
 }
 
-#icon-3>a:link,
-#icon-3>a:visited {
+#icon-3 > a:link,
+#icon-3 > a:visited {
   color: black;
   /* margin-right: 50px; */
   text-decoration: none;
 }
 
-#icon-3>a:hover {
+#icon-3 > a:hover {
   /* padding: 15px; */
   color: #dd6b6b;
 }
 
-#icon-4>a:link,
-#icon-4>a:visited {
+#icon-4 > a:link,
+#icon-4 > a:visited {
   color: black;
   /* margin-right: 50px; */
   text-decoration: none;
 }
 
-#icon-4>a:hover {
+#icon-4 > a:hover {
   /* padding: 15px; */
   color: #dd6b6b;
 }
@@ -288,14 +288,14 @@
   color: white;
 }
 
-#information-link>a:link,
-#information-link>a:visited {
+#information-link > a:link,
+#information-link > a:visited {
   color: white;
   /* margin-right: 50px; */
   text-decoration: none;
 }
 
-#information-link>a:hover {
+#information-link > a:hover {
   /* padding: 15px; */
   color: #dd6b6b;
 }
@@ -319,6 +319,31 @@
 
 .copyright-content {
   display: flex;
+}
+
+#nail-art {
+  margin-top: 80px;
+  height: 950px;
+  width: auto;
+  background-color: #efe3e3;
+}
+
+.nail-art-image {
+  margin-left: 20px;
+  /* margin-top: 70px; */
+  /* margin-bottom: 70px; */
+  height: 360px;
+  width: 330px;
+}
+
+.nail-arts {
+  margin-left: 50px;
+  margin-top: 50px;
+  margin-bottom: 0%;
+  padding: 20px;
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  color: black;
 }
 
 .button-81 {
